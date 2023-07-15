@@ -1,0 +1,11 @@
+/home/zachary/Development/rust/the_rust_programming_language/guessing_game/target/debug/deps/getrandom-fb5cf26ed7dedba3.rmeta: /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error_impls.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/linux_android.rs
+
+/home/zachary/Development/rust/the_rust_programming_language/guessing_game/target/debug/deps/getrandom-fb5cf26ed7dedba3.d: /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error_impls.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs /home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/linux_android.rs
+
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs:
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs:
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs:
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error_impls.rs:
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs:
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs:
+/home/zachary/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/linux_android.rs:
