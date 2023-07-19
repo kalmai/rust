@@ -8,7 +8,6 @@ fn main() {
     // if let Ok(lines) = read_lines("./sample.txt") {
     if let Ok(lines) = read_lines("./input.txt") {
         for line in lines {
-            // println!("{:#?}", line);
             if let Ok (num) = line {
                 food_items.push(num);
             }
@@ -32,18 +31,22 @@ fn main() {
         }
         n += 1;
     }
-    let mut most_calories = 0;
+    let mut top_three_calories = vec![0];
     for &calories in all_calorie_totals.iter() {
-        match calories.cmp(&most_calories) {
+        match calories.cmp(&top_three_calories[0]) {
             Ordering::Less => {},
-            Ordering::Greater => { most_calories = calories },
+            Ordering::Greater => {
+                top_three_calories.push(calories);
+                if top_three_calories.len() > 3 {
+                    top_three_calories.sort();
+                    top_three_calories.remove(0);
+                }
+            },
             Ordering::Equal => {}
         }
-        // if most_calories < calories {
-        //     most_calories = calories;
-        // }
     }
-    println!("{}", most_calories);
+    let sum: i32 = top_three_calories.iter().sum();
+    println!("{}", sum);
 }
 
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
